@@ -1,0 +1,23 @@
+# 敏感文件
+*.env
+configs/*.env
+workspace/configs/*.env
+
+# 大文件
+*.zip
+*.tar.gz
+
+# 临时文件
+*.log
+/tmp/*
+
+# Python
+__pycache__/
+*.pyc
+
+# 下载的媒体文件
+media/inbound/*
+
+# 浏览器数据
+browser-session/
+chrome-session/
